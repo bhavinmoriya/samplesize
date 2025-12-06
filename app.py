@@ -11,6 +11,7 @@ def sample_size(N, margin_error=0.05, confidence_level=0.95, p=0.5):
     return round(n)
 
 # Streamlit UI
+st.set_page_config(page_title="Sample Size Calculator")  # Unique browser tab title
 st.title("Sample Size Calculator")
 st.write("Calculate the required sample size for a survey and visualize how input parameters affect it.")
 
